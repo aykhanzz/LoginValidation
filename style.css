@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputs :nth-child(1){
+    height: 40px;
+    background-color: rgb(230, 224, 224);
+    border-radius: 4px;
+}
+
+.inputs :nth-child(2){
+    height: 40px;
+    background-color: rgb(230, 224, 224);
+    border-radius: 4px;
+}
+
+.inputs ::placeholder{
+    color: black;
+}
+
+.inputs button{
+    width: 60px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+}
